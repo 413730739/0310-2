@@ -1,0 +1,6 @@
+type,question,option1,option2,option3,option4,answer
+choice,如果想在畫面中加入背景泡泡動畫，應該使用下列哪一段程式？,A.fill(255);ellipse(mouseX，mouseY，20);,B.for(leti=0;i小於bubbles.length;i++){bubbles[i].move();bubbles[i].display();},C.createBubble(100，100);,D.if(mouseIsPressed){background(255);},B.for(leti=0;i小於bubbles.length;i++){bubbles[i].move();bubbles[i].display();}
+choice,如果你想要在滑鼠移到按鈕上時切換圖片動畫，你應該使用哪個程式設計概念？,A.draw(),B.mouseClicked(),C.mouseMoved()與isHover判斷,D.preload(),C.mouseMoved()與isHover判斷
+choice,若想在畫面上嵌入 PDF、影片或其他網頁內容，應該使用哪個元素？,A.createSprite(),B.createIframe(),C.createDiv() 加上.html('(iframe)'),D.createCanvas(),C.createDiv() 加上.html('(iframe)')
+choice,以下哪段程式碼會在右上角顯示學號？,A.text('學號：413730739'，20，20);,B.text('學號：413730739'，width/2，height/2);,C.text('學號：413730739'，width-20，20);,D.textAlign(LEFT，BOTTOM);,C.text('學號：413730739'，width-20，20);
+choice,若要當使用者點擊「自我介紹」按鈕時顯示介紹頁面，應使用什麼方式？,A.在draw()中直接畫文字,B.在mousePressed()裡用showIframe()載入介紹頁面,C.在preload()中直接載入網頁,D.用loadJSON()載入頁面內容,B.在mousePressed()裡用showIframe()載入介紹頁面
